@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-gap: 5px;
+  background-color: black;
+}
+
+div{
+  margin: 10px;
+  font-size: 20px;  
+  color: beige;
+  
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: beige;
+  grid-column: span 2;
+  height: 50px;
+  border: 50px;
+  border-color: white;
+}
+
+section{
+  display: flex;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+aside {
+  background-color: #90b8ba;
+  display: flex;
+}
+#experts{
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: black;
+}
+img{
+  height: 300px;
+  width: 375px;
+}
+#theamp{
+  flex-direction: row
+  ;
+  text-align: center;
+  align-content: center;
+  color: black;
+}
+#goal{
+  align-content: center;
+  flex-direction: row;
+  text-decoration: underline;
+}
+.flex-ad{
+  display: grid;
+  text-align: initial;
+}
+#ad{
+  flex-direction: row;
+  text-align: center;
+}
+.flex-str{
+  display: grid;
+  align-content: initial;
+}
+main {
+  background-color: #d7bc91;
+}
+
+footer {
+  background-color: beige;
+  grid-column: span 2;
+}
+
+.flex-ctr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: beige;
+  grid-column: span 2;
+}
